@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+body {
+  background-image: "bg-pattern-desktop.svg";
+  background-repeat: no-repeat;  
+  background-size:auto;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    padding: 60px;
+    margin-top: 0;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: auto;
+    flex-direction: column;
+    justify-content: border-left;
+}
+
+.logo {
+    display: flex;
+    align-items:flex-start;
+    margin-bottom: 90px;
+    margin-left: 30px;
+}
+
+.left h1 {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: 14px;
+}
+
+.left h1 span {
+    color: hsl(11, 44%, 69%);
+    font-size: 4.5rem;
+    font-weight:100;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left p {
+    color:hsl(11, 44%, 69%);
+    font-family:cursive;
+    letter-spacing: 0.2px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 2.5rem;
+    width: 430px;
+}
+
+.email-form {
+    margin-left: 20px;
+    display: flex;
+    max-width: 380px;
+}
+
+.email-form input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 30px 0 0 30px;
+    font-family:cursive;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.email-form button {
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+}
+
+.email-form button:hover {
+    background:  hsl(10, 95%, 75%);
+}
+
+
+.right{
+    display: flex;
+    flex: 1;
+    padding: 0;
+    margin:0;
+    justify-content: right;
+}
+
+.img{
+    object-fit: cover;
+}       
